@@ -1,0 +1,47 @@
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root{
+
+}
+
+body{
+  display: flex; /* Centering the card in the middle of the HTML body */
+  justify-content: center; /* Centering the card in the middle of the HTML body */
+  align-items: center; /* Centering the card in the middle of the HTML body */
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+
+.card{
+  width: 320px;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: white;
+  box-shadow: 0px 5px 20px 0px lightgray, 0px 20px 30px 0px lightgray;
+}
+
+.qr-code img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.5em;
+}
+
+.card__text{
+  text-align: center;
+  padding: 0 0.5em;
+}
+
+.card__text__h2{
+  margin: 1em auto;
+  font-size: 1.5rem;
+}
+
+.card__text__p{
+  font-size: 0.8rem;
+}
